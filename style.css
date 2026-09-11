@@ -167,6 +167,7 @@ body {
 
 /* Home button */
 .home-button {
+    display: inline-block;
     background-color: #ffc900;
     color: #003366;
 
