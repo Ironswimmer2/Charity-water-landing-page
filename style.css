@@ -1,0 +1,125 @@
+/* Remove default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page */
+body {
+    font-family: 'Proxima Nova';
+    margin: 0;
+}
+
+/* Main hero section */
+.hero {
+    height: 100vh;
+    background-image: url("images/images/water-photo.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.hero2 {
+    height: 100vh;
+    background-image: url("images/images/water-photo2.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin: 0;
+    padding-top: 1px;
+}
+
+/* Navigation bar */
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 45px 55px;
+}
+
+/* Logo and charity name */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo2 {
+    width: 38px;
+    height: 50px;
+    vertical-align: middle;
+    position: relative;
+    top: -5px;
+}
+
+.logo img {
+    width: 38px;
+    height: 50px;
+}
+
+.logo span {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Navigation links */
+.nav-links {
+    display: flex;
+    gap: 35px;
+    margin-left: 50px;
+}
+
+.nav-links a {
+    color: #ffc900;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Hero text */
+.hero-content {
+    margin-left: 28px;
+    margin-top: 55px;
+    max-width: 610px;
+}
+
+.hero-content h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero-content h2 {
+    font-size: 40px;
+    line-height: 0.5;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 25px;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+/* Donate button */
+.donate-button {
+    display: inline-block;
+    background-color: #ffc900;
+    color: #0057b8;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.return-button {
+    display: inline-block;
+    background-color: #ffc900;
+    color: #0057b8;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
